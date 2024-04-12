@@ -13,4 +13,6 @@ seletor.addEventListener("change", function () {
   }
 });
 
-AOS.init();
+AOS.init({
+  once: true,
+});

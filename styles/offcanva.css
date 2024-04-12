@@ -1,0 +1,8 @@
+.offcanvas-body { 
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 20px;
+}
+
+.offcanvas-body p {
+    margin-bottom: 36px;
+} 

@@ -22,10 +22,54 @@ img.logo-branco {
     margin-bottom: 40px;
 }
 
-img.icons {
+.content-rodape .icon-fb,
+.content-rodape .icon-ig,
+.content-rodape .icon-in,
+.content-rodape .icon-gb,
+.content-rodape .icon-fb:hover,
+.content-rodape .icon-ig:hover,
+.content-rodape .icon-in:hover,
+.content-rodape .icon-gb:hover {
     width: 25px;
     height: 25px;
-    position: relative;
+    background-size: cover;
+    transition: 0.4s;
+}
+
+.content-rodape .icon-fb {
+    background-image: url("../assets/icons/fb-branco.png");
+
+}
+
+.content-rodape .icon-fb:hover {
+    background-image: url("../assets/icons/fb-hover.png");
+}
+
+.content-rodape .icon-ig {
+    background-image: url("../assets/icons/ig-branco.png");
+
+}
+
+.content-rodape .icon-ig:hover {
+    background-image: url("../assets/icons/ig-hover.png");
+}
+
+.content-rodape .icon-in {
+    background-image: url("../assets/icons/in-branco.png");
+
+}
+
+.content-rodape .icon-in:hover {
+    background-image: url("../assets/icons/in-hover.png");
+}
+
+.content-rodape .icon-gb {
+    background-image: url("../assets/icons/googlebusiness.png");
+
+}
+
+.content-rodape .icon-gb:hover {
+    background-image: url("../assets/icons/googlebusiness-hover.png");
 }
 
 .redes-sociais ul {
@@ -57,9 +101,7 @@ img.icons {
     height: 15px;
 }
 
-
 img.cel {
     width: 10px;
     height: 15px;
 }
-
