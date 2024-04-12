@@ -1,0 +1,49 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/sobre.css");
+@import url("styles/rodape.css");
+@import url("styles/abordagem.css");
+@import url("styles/consultorio.css");
+@import url("styles/contato.css");
+@import url("styles/localizacao.css");
+@import url("styles/depoimento.css");
+
+:root {
+    --bkg-color: #FDFDFD;
+    --white: #FFFFFF;
+    --gold: #C8B975;
+    --blue-gradient: linear-gradient(97deg, rgba(28,28,114,1) 43%, rgba(27,27,181,1) 100%);
+    --main-font: "Roboto";
+    --secondary-font: "Roboto Slab";
+    --blue: #1C1C72;
+    --black: #000000;
+    --grey: #474646;
+    --light-grey: #858585;
+}
+
+
+body {
+    background-color: var(--bkg-color);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h2.content-title {
+    padding-bottom: 8px;
+    padding-right: 30px;
+    border: 0;
+    border-bottom: 5px;
+    border-color: var(--blue);
+    border-style: solid;
+    display: inline-block;
+}
+
+
+
+
+/* Sobre mim */
+
+
+
+

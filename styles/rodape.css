@@ -1,0 +1,65 @@
+.content-rodape {
+    padding-top: 100px;
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.content-rodape p {
+    font-size: 13px;
+    word-break: break-word;
+}
+
+.content-rodape h4 {
+    display: inline-block;
+    border-bottom: 5px solid var(--gold);
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+img.logo-branco {
+    width: 30%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+img.icons {
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
+
+.redes-sociais ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    justify-content: left;
+}
+
+.redes-sociais li {
+    margin-right: 20px;
+}
+
+.content-rodape a {
+    display: block;
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.content-rodape a:hover {
+    color: var(--gold);
+}
+
+.contato-footer img{
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+
+img.cel {
+    width: 10px;
+    height: 15px;
+}
+

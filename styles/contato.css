@@ -1,0 +1,73 @@
+.content-contato {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.content-contato-div {
+    background-color:  rgba(255, 255, 255, 0.15);
+    padding: 50px;
+    border-radius: 12px;
+}
+
+.content-contato .content-title {
+    border-color: var(--gold);
+    border-style: solid;
+}
+
+/* input[type="text"] {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+} */
+
+.content-contato input, textarea {
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--white);
+    padding-left: 12px;
+    border: 2px solid var(--white);
+    border-radius: 4px;
+    width: 100%;
+}
+
+.content-contato input:focus, textarea:focus {
+    outline: none;
+}
+
+.content-contato input {
+    height: 38px;
+    margin-bottom: 20px;
+}
+
+.content-contato textarea {
+    width: 100%;
+    height: 200px;
+    padding-top: 10px;
+}
+
+.content-contato button {
+    height: 38px;
+    width: 70px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 14px;
+}
+
+.content-contato .button {
+    justify-content: right;
+}
+
+@media (max-width: 768px) {
+    
+    .content-contato select {
+        margin-bottom: 18px;
+    }
+
+    div.col-md-12.button {
+        display: flex;
+        justify-content: center;
+    }
+}

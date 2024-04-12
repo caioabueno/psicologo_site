@@ -1,0 +1,30 @@
+.content-localizacao {
+    padding-bottom: 250px;
+}
+
+#mapa-2 {
+    display: none;
+}
+
+.content-localizacao h2 {
+    margin-bottom: 24px;
+}
+
+.content-localizacao select {
+    background-color: rgba(0, 0, 0, 0.15);
+    height: 30px;
+    border: none;
+    margin-bottom: 24px;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.content-localizacao select:focus{
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .content-localizacao iframe {
+        width: 100%;
+    }
+}

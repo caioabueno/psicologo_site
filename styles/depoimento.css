@@ -1,0 +1,65 @@
+.content-depoimentos {
+    padding-bottom: 100px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.content-depoimentos .card-depoimentos {
+    padding-bottom: 80px;
+}
+
+.content-depoimentos .col-esquerda {
+    padding-right: 40px;
+}
+
+.content-depoimentos .col-direita {
+    padding-left: 40px;
+    padding-top: 150px;
+}
+
+.content-depoimentos .card {
+    border-radius: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.content-depoimentos img.estrelas {
+    width: 135px;
+    height: 25px;
+}
+
+
+
+.content-depoimentos .depoimentos-photo {
+    border-radius: 40px;
+}
+
+.content-depoimentos .text-center {
+    padding-bottom: 16px;
+}
+
+.content-depoimentos .card-body {
+    border: 0;
+    border-top: 1px;
+    border-style: solid;
+    border-color: rgba( 0, 0, 0, 0.12);
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.content-depoimentos h5 {
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px ;
+}
+
+@media (max-width: 768px) { 
+    .content-depoimentos .col-direita {
+        padding-left: 12px;
+        padding-top: 0px;
+    }
+
+    .content-depoimentos .col-esquerda {
+        padding-right: 12px;
+    }
+}

@@ -1,0 +1,22 @@
+.content-consultorio {
+    padding-bottom: 250px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+.content-consultorio p {
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.content-consultorio img {
+    border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+    .content-consultorio .div-carrossel {
+        padding-right: 55px;
+    }
+}

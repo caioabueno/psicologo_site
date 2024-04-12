@@ -1,0 +1,89 @@
+.content-abordagem {
+    padding-bottom: 250px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.titulo {
+    border-color: black;
+    border: 10px;
+}
+
+.content-abordagem p {
+    padding-bottom: 80px;
+
+}
+
+.content-abordagem h2 {
+    padding-bottom: 8px;
+}
+
+.content-abordagem .card-abordagem {
+    background-color: var(--blue);
+    color: var(--white);
+    height: 270px;
+    width: 200px;
+    margin-bottom: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-shadow: 5px 5px 5px grey;
+    transition: 0.4s;
+}
+
+.content-abordagem .card-abordagem:hover {
+    transform: scale(1.05);
+}
+
+.content-abordagem .card-abordagem h5 {
+    border: 0;
+    border-bottom: 5px solid var(--gold);
+    padding-right: 40px;
+    padding-left: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px ;
+}
+
+.content-abordagem .card-body {
+    padding: 0;
+}
+
+.content-abordagem .card-text {
+    padding-bottom: 0;
+}
+
+.content-abordagem .card-footer {
+    padding-left: 0;
+}
+
+.content-abordagem .card-footer a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.content-abordagem .card-footer a:hover{
+    color: var(--gold);
+    font-weight: 700;
+}
+
+.content-abordagem .card-abordagem-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .content-abordagem .card-desk {
+        display: none;
+    }
+
+    .content-abordagem .card-abordagem-mobile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-abordagem .card-abordagem {
+        height: 240px;
+        width: 250px;
+        
+    }
+    
+}
+
